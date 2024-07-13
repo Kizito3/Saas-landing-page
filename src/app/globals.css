@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .masker{
+    -webkit-mask-image: 'radial-gradient(100px 100px at 0px 0px, black, transparent)';
+      mask-image: 'radial-gradient(100px 100px at 0px 0px, black, transparent)';
+}
+}
